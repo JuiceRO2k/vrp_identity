@@ -1,4 +1,4 @@
-# vrp_identity | discord.gg/dlounge
+# vrp_identity | https://discord.gg/dlounge
 
 > Create Identity only once
 > <br/>Preview: https://www.youtube.com/watch?v=Ui753vd1H6c
