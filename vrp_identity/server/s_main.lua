@@ -30,7 +30,7 @@ vRPSIden.updateUI = function(nume, prenume, varsta)
     if _id ~= nil then
         vRP.generateRegistrationNumber({function(registration)
             vRP.generatePhoneNumber({function(phone)
-                exports.ghmattimysql:execute("UPDATE vrp_user_identvrp_user_identitiesity SET firstname = @nume, name = @prenume, age = @varsta, registration = @registration, phone = @phone WHERE id = @id", {
+                exports.ghmattimysql:execute("UPDATE vrp_user_identities SET firstname = @nume, name = @prenume, age = @varsta, registration = @registration, phone = @phone WHERE id = @id", {
                     ["@id"] = _id,
                     ["nume"] = nume,
                     ["prenume"] = prenume,
