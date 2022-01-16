@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+	font-family: Poppins, sans-serif;
+	user-select: none;
+	color: white;
+    text-shadow: 0px 0px 0.8vh rgb(0 0 0), 0px 0px 0.8vh rgb(0 0 0 / 68%);
+    text-align: center;
+
+}
+
+body {
+	font-size: 2vh
+}
+
+h1 {
+ 	margin-top: 1vh;
+ 	border-bottom: .1vh solid white;
+}
+
+#identity {
+	position: absolute;
+	top: 25vh;
+	left: 30vw;
+	height: 45vh;
+	width: 40vw;
+	background: rgba(25, 25, 25, 0.7);
+	border-radius: 2vh;
+}
+
+#left {
+	height: 33vh;
+	margin-left: 1vw;
+	margin-top: -2vh;
+	width: 12vw;
+	background: rgba(25, 25, 25, 0.8);
+	float: left;
+	border-radius: .5vh;
+}
+
+#selec {
+	margin-top: -.5vh;
+	margin-left: 2.3vw;
+}
+
+.selec {
+	float: left;
+	padding-left: 3vh;
+}
+
+#img {
+	height: 30vh;
+	width: 9vw;
+}
+
+#right {
+	height: 33vh;
+	margin-left: 13.5vw;
+	margin-top: -2vh;
+	width: 25vw;
+	background: rgba(25, 25, 25, 0.8);
+	border-radius: .5vh;
+}
+
+#inputs {
+	margin-left: 2vw;
+	font-size: 3vh;
+	padding-top: 3vh;
+}
+
+input {
+	background: rgba(0,0,0,0.6);
+	height: 4vh;
+	width: 17vw;
+	border: none;
+	margin-left: -6vw;
+	border-radius: .5vh;
+	text-align: left;
+	font-size: 2.5vh;
+	padding-left: .5vw;
+}
+
+input:focus {
+	outline: none;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.selec:hover {
+	color: #308bd1;
+	transform: translate(-1px, -1px);
+}
+
+
+h2 {
+	font-size: 2.5vh;
+	margin-top: 0.5vh;
+	border-top: .1vh solid white;
+	transition: 0.5s;
+}
+
+h2:hover {
+	color: #0bb4d1;
+	transform: translate(-1px, -1px);
+}
+
+label {
+	display: flex;
+}
+
+@media (aspect-ratio: 4/3) {
+    #selec {
+		margin-left: 1vw;
+	}
+}
+
+@media (aspect-ratio: 5/4) {
+   #selec {
+		margin-left: 1vw;
+	}
+
+}
